@@ -1,0 +1,2 @@
+# trabalho-vetores-din-micos
+Trabalho de análise de vetores dinâmicos para a matéria de Algoritmos do segundo período de ADS no IFRN.
