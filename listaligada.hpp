@@ -21,10 +21,10 @@ class lista_ligada{
         unsigned int tamanho(){ // Retorna o tamanho do vetor. Desempenho O(1).
             return tamanho_;
         }
-        unsigned int capacidade(){ 
+        unsigned int capacidade(){ // Desempenho O(1)
             return tamanho_;
         }
-        double porcentagem_ocupada(){
+        double porcentagem_ocupada(){ // Desempenho O(1)
             if (tamanho_ == 0) return 0.0;
             return 1.0;
         }

@@ -20,7 +20,7 @@ class array_set{
             this->capacidade_ = 2;
             this->data = new int[2];
         }
-        ~array_set(){ // Destrutro do vetor. Ainda estou em dúvida se seu desempenho é O(1) ou O(n).
+        ~array_set(){ // Destrutro do vetor. Desempenho O(n).
             delete [] this->data;
         }
         unsigned int tamanho(){ // Retorna a quantidade de dados que estão presentes no vetor. Desempenho O(1).
